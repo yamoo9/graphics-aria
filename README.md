@@ -1,9 +1,9 @@
 # WAI-ARIA Graphics Module 1.0
 
-W3C 표준 입후보안 - 2018.03.29
-
+W3C 표준 입후보안 - 2018.03.29<br>
 [WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/) 제작 과정에 필요한 내용 위주로 일부 번역.
 
+<br>
 
 ### 목차
 
@@ -17,7 +17,7 @@ W3C 표준 입후보안 - 2018.03.29
 
 <br>
 
-## W3C 접근성 API 매핑
+## W3C 접근성 API 매핑(Mapping)
 
 ### [Graphics Accessibility API Mappings (W3C 표준 입후보안 - 2018.04.19)](https://www.w3.org/TR/graphics-aam-1.0/)
 
@@ -33,15 +33,15 @@ W3C 표준 입후보안 - 2018.03.29
 
 SVG 접근성 API 매핑은 유저 에이전트가 [SVG2](https://www.w3.org/TR/svg-aam-1.0/#bib-SVG2) 마크업을 플랫폼 마크업 접근성 API에 매핑하는 방법을 정의합니다. 유저 에이전트에서 SVG 접근성을 담당하는 **SVG 유저 에이전트 개발자를 위한** 것입니다.
 
-이 사양은 SVG 제작자가 차트(Chart), 그래프(Graph) 및 기타 도면(drawings)을 포함하여 접근 가능한 리치 애플리케이션(RIA)을 만들 수 있도록 합니다. 이것은 Core Accessibility API Mappings 1.1 (CORE-AAM) [CORE-AAM]과 Accessible Name and Description: Computation and API Mappings 1.1 (ACCNAME-AAM) [ACCNAME-AAM]을 유저  에이전트에 확장하기에 가능합니다.
+이 사양은 SVG 제작자가 차트(Chart), 그래프(Graph) 및 기타 도면(drawings)을 포함하여 접근 가능한 리치 애플리케이션(RIA)을 만들 수 있도록 합니다. 이것은 [Core Accessibility API Mappings 1.1](http://www.w3.org/TR/core-aam-1.1/) (CORE-AAM) [[CORE-AAM](https://www.w3.org/TR/svg-aam-1.0/#bib-CORE-AAM)]과 [Accessible Name and Description: Computation and API Mappings 1.1](http://www.w3.org/TR/accname-1.1/) (ACCNAME-AAM) [[ACCNAME-AAM](https://www.w3.org/TR/svg-aam-1.0/#bib-ACCNAME-AAM)]을 유저 에이전트에 확장하기에 가능합니다.
 
-이러한 핵심 매핑을 활용하고 SVG 유저 에이전트가 WAI-ARIA [WAI-ARIA]를 통해 웹 컨텐츠에서 제공되는 키보드 포커스와 역할, 상태 및 속성 속성에 응답해야 하는 방법을 정의하는 SVG 관련 가이드를 제공합니다. 또한 SVG-AAM은 ACCNAME-AAM이 플랫폼 접근성 API에 의해 공개된 접근 가능한 이름과 설명 정보를 계산하는데 사용되는 표준 SVG 기능을 사용하도록 조정합니다.
+이러한 핵심 매핑을 활용하고 SVG 유저 에이전트가 [WAI-ARIA](http://www.w3.org/TR/wai-aria-1.1/) [[WAI-ARIA](https://www.w3.org/TR/svg-aam-1.0/#bib-WAI-ARIA)]를 통해 웹 컨텐츠에서 제공되는 키보드 포커스와 역할([role](https://www.w3.org/TR/svg-aam-1.0/#dfn-role)), 상태([state](https://www.w3.org/TR/svg-aam-1.0/#dfn-state)) 및 속성([property](https://www.w3.org/TR/svg-aam-1.0/#dfn-property)) 속성에 응답해야 하는 방법을 정의하는 SVG 관련 가이드를 제공합니다. 또한 SVG-AAM은 ACCNAME-AAM이 플랫폼 접근성 API에 의해 공개된 접근 가능한 이름과 설명 정보를 계산하는데 사용되는 표준 SVG 기능을 사용하도록 조정합니다.
 
-SVG-AAM은 WAI-ARIA 개요에 설명된 WAI-ARIA 제품군의 일부입니다.
+SVG-AAM은 [WAI-ARIA 개요](http://www.w3.org/WAI/intro/aria.php)에 설명된 WAI-ARIA 제품군의 일부입니다.
 
 <br>
 
-## 플랫폼 접근성 API
+## 플랫폼(운영체제) 접근성 API
 
 운영체제 및 기타 플랫폼은 [객체](https://www.w3.org/TR/graphics-aam-1.0/#dfn-object) 및 [이벤트](https://www.w3.org/TR/graphics-aam-1.0/#dfn-event)에 대한 정보를 [보조 기술](https://www.w3.org/TR/graphics-aam-1.0/#dfn-assistive-technology)에 공개하는 일련의 인터페이스를 제공합니다. 보조 기술은 이러한 인터페이스를 사용하여 [위젯](https://www.w3.org/TR/graphics-aam-1.0/#dfn-widget)에 대한 정보를 얻고 인터랙션 합니다.
 
