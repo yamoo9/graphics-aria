@@ -1,7 +1,7 @@
 # WAI-ARIA Graphics Module 1.0
 
 W3C 표준 입후보안 - 2018.03.29<br>
-[WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/) 제작 과정에 필요한 내용 위주로 일부 번역.
+[WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/) 제작 과정에 필요한 내용 중심 일부 번역.
 
 ### 목차
 
