@@ -13,3 +13,4 @@ W3C 표준 입후보안 - 2018.03.29
     - [그래픽 객체(Object)](https://github.com/yamoo9/graphics-aria/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD-%EA%B0%9D%EC%B2%B4(Graphic-Object)-%EC%97%AD%ED%95%A0)
     - [그래픽 심볼(Symbol)](https://github.com/yamoo9/graphics-aria/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%8B%AC%EB%B3%BC(Graphic-Symbol)-%EC%97%AD%ED%95%A0)
     - [그외 다른 역할(Other Roles)](https://github.com/yamoo9/graphics-aria/wiki/%EA%B7%B8%EC%99%B8-%EB%8B%A4%EB%A5%B8-%EC%97%AD%ED%95%A0(Other-Roles))
+1. [상태(States)와 속성(Properties)](https://github.com/yamoo9/graphics-aria/wiki/%EC%83%81%ED%83%9C(States)%EC%99%80-%EC%86%8D%EC%84%B1(Properties))
