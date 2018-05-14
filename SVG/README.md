@@ -42,13 +42,13 @@ SVG는 XML 기반 언어로 사람이 코드를 읽기 쉽고, 수정이 가능�
 
 **수정 가능(Modifiable)** - SVG 코드를 편집하지 않고 CSS를 사용해 SVG 비주얼 디자인을 변경할 수 있습니다. 뿐만 아니라 SVG는 JavaScript, CSS 애니메이션을 사용해 컨트롤 가능한 애니메이션을 구현할 수 있습니다.
 
-<a href="https://css-tricks.com/how-to-create-a-component-library-from-svg-illustrations/" target="_blank"><img src="https://cdn.css-tricks.com/wp-content/uploads/2018/04/react-svg-component-library-15.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
+<a href="https://css-tricks.com/how-to-create-a-component-library-from-svg-illustrations/" target="_blank"><img src="../assets/react-svg-component-library.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
 <small>CSS를 통해 실시간 동적 수정이 가능합니다.</small>
 
-<a href="https://medium.com/@LewisMenelaws/how-to-create-beautiful-svg-animations-easily-610eb2690ac3" target="_blank"><img src="https://cdn-images-1.medium.com/max/1600/1*-5qkT4Yn2iYm5rdaF2wqnQ.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
+<a href="https://medium.com/@LewisMenelaws/how-to-create-beautiful-svg-animations-easily-610eb2690ac3" target="_blank"><img src="../assets/monitor-svg-animation.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
 <small>JavaScript 애니메이션을 사용해 멋진 결과물을 구현할 수 있습니다.</small>
 
-<a href="http://saturnodesign.com/5-design-trends-for-2018-and-beyond" target="_blank"><img src="https://lh5.googleusercontent.com/_EJx3BtA6eKDpmQVuEiphqSfrCRFxAMAMWK3rKqagAnhz9ZGv9HAi9WpAVXjWkDUkr8pLdTIvov1SnRtflPr1rPEllK0Yi0DtJSX7wZ9lN-U1IFHmLsDnjLhrLqMHAJZ1WWS8cdY" alt="How to Create Beautiful SVG Animations Easily"></a>
+<a href="http://saturnodesign.com/5-design-trends-for-2018-and-beyond" target="_blank"><img src="../assets/svg-motion.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
 <small>SVG 애니메이션이 반영된 웹 사이트 디자인은 멋진 동적 인터페이스를 사용자에게 제공합니다.</small>
 
 <br>
