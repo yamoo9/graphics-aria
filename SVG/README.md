@@ -48,7 +48,7 @@ SVG는 XML 기반 언어로 사람이 코드를 읽기 쉽고, 수정이 가능�
 <a href="https://medium.com/@LewisMenelaws/how-to-create-beautiful-svg-animations-easily-610eb2690ac3" target="_blank"><img src="../assets/monitor-svg-animation.gif" alt="How to Create Beautiful SVG Animations Easily"></a>
 <small>JavaScript 애니메이션을 사용해 멋진 결과물을 구현할 수 있습니다.</small><br><br>
 
-<a href="http://saturnodesign.com/5-design-trends-for-2018-and-beyond" target="_blank"><img src="../assets/svg-motion.gif" alt="How to Create Beautiful SVG Animations Easily" width="740"></a>
+<a href="http://saturnodesign.com/5-design-trends-for-2018-and-beyond" target="_blank"><img src="../assets/svg-motion.gif" alt="How to Create Beautiful SVG Animations Easily" width="740"></a><br>
 <small>SVG 애니메이션이 반영된 웹 사이트 디자인은 멋진 동적 인터페이스를 사용자에게 제공합니다.</small>
 
 <br>
