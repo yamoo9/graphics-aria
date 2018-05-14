@@ -1,8 +1,11 @@
 # WAI-ARIA Graphics Module 1.0
 
-W3C 표준 입후보안(<abbr title="Candidate Recommendation">CR</abbr>) - 2018.03.29<br>
 [WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/)
 문서에서 제작 과정에 필요한 내용을 발췌하여 일부 번역(의역)을 진행했습니다.
+
+W3C 표준 입후보안(<abbr title="Candidate Recommendation">CR</abbr>) - 2018.03.29
+
+[<img src="assets/W3C Process.png" alt>](https://w3c.github.io/w3process/#recs-and-notes)
 
 ### 목차
 
