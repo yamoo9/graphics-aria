@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 520 520">
+  <title>직교 좌표계(Cartesian coordinate) 평면</title>
+  <desc>동일한 길이 축이 있는 표준 직교 좌표계입니다.</desc>
+  <style>.line { stroke: #4d4d4d; } .strokeAxis { stroke-width: 2px; }</style>
+  <g>
+    <title>y축</title>
+    <desc>y축은 단위를 가지지 않으며 화면에 그려지지 않습니다.</desc>
+    <path marker-end="url(#axisArrowheadEnd)" marker-start="url(#axisArrowheadStart)" d="M 250 20 v 480" class="line strokeAxis"/>
+    <text x="260" y="10" class="italic" text-anchor="start">y</text>
+  </g>
+  <g>
+    <title>x축</title>
+    <desc>x축은 단위를 가지지 않으며 화면에 그려지지 않습니다.</desc>
+    <path marker-end="url(#axisArrowheadEnd)" marker-start="url(#axisArrowheadStart)" d="M 20 250 h 480" class="line strokeAxis"/>
+    <text x="507" y="270" class="italic" text-anchor="start">x</text>
+  </g>
+</svg>

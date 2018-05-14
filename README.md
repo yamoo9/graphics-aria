@@ -1,9 +1,12 @@
 # WAI-ARIA Graphics Module 1.0
 
-W3C 표준 입후보안 - 2018.03.29<br>
-[WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/) 제작 과정에 필요한 내용 위주로 일부 번역.
+W3C 표준 입후보안(<abbr title="Candidate Recommendation">CR</abbr>) - 2018.03.29<br>
+[WAI-ARIA 그래픽 모듈 (Graphics Module)](https://www.w3.org/TR/graphics-aria-1.0/)
+문서에서 제작 과정에 필요한 내용을 발췌하여 일부 번역(의역)을 진행했습니다.
 
 ### 목차
+
+각 섹션 링크를 통해 번역된 내용을 확인할 수 있습니다.
 
 1. [WAI-ARIA 그래픽 모듈](https://github.com/yamoo9/graphics-aria/wiki)
 1. [그래픽 역할(Roles)](https://github.com/yamoo9/graphics-aria/wiki/%EA%B7%B8%EB%9E%98%ED%94%BD-%EC%97%AD%ED%95%A0-(Graphics-Roles))
@@ -15,7 +18,23 @@ W3C 표준 입후보안 - 2018.03.29<br>
 
 <br>
 
+---
+
+<br>
+
+## SVG 그래픽 / 접근성
+
+SVG 그래픽에 대한 이해를 돕고, 사용하는 방법에 대해 안내합니다.
+나아가 그래픽에 접근성을 고려하는 방법을 다뤄봅니다.
+
+1. [SVG 그래픽](SVG/README.md)
+1. [SVG 접근성](SVG/a11y.md)
+
+<br>
+
 ## W3C 접근성 API 매핑(Mapping)
+
+매핑 API는 <u>웹 개발자가 아닌 브라우저, 보조 기술 개발자가 참고해야 할 문서</u>입니다.
 
 ### [Graphics Accessibility API Mappings (W3C 표준 입후보안 - 2018.04.19)](https://www.w3.org/TR/graphics-aam-1.0/)
 

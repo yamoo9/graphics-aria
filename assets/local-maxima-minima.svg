@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 350">
+
+  <title>고지대와 저지대</title>
+  <desc> 3차원 공간을 2차원 도면에 표시하기 위해 고지대는 볼록 나온 모양을, 저지대는 움푹 들어간 모양으로 표시됩니다.</desc>
+
+  <style>
+    text { font-family: sans-serif; fill: #4d4d4d;  }
+    .fontLarge { font-size: 22px;  }
+    .fontXLarge { font-size: 32px;  }
+    .fontSmall { font-size: 12px;  }
+    .fontXSmall { font-size: 8px;  }
+    .italic { font-style: italic;  }
+    .bold { font-weight: bold;  }
+    .svgMath { font-family: 'LearnStix', serif; font-size: 26px;  }
+    .svgMath .italic { font-family: 'LearnStix', serif; font-style: italic;  }
+    .svgMath.fontSmall { font-family: 'LearnStix', serif; font-size: 17.5px;  }
+    .svgMath.fontSmall.italic, .svgMath.fontSmall .italic { font-family: 'LearnStix', serif; font-style: italic;  }
+    .svgMath.fontLarge { font-family: 'LearnStix', serif; font-size: 30px;  }
+    .svgMath.fontLarge.italic, .svgMath.fontLarge .italic { font-family: 'LearnStix', serif; font-style: italic;  }
+    .svgMath.fontXLarge { font-family: 'LearnStix', serif; font-size: 38px;  }
+    .svgMath.fontXLarge.italic, .svgMath.fontXLarge .italic { font-family: 'LearnStix', serif; font-size: 38px;  }
+    .svgMath.italic, .svgMath.fontSmall.italic { font-family: 'LearnStix', serif; font-style: italic;  }
+    marker[id^="arrowhead"], marker[id^="axisArrowhead"] { stroke: none !important; stroke-width: 0 !important; stroke-opacity: 0 !important; stroke-color: transparent !important; stroke-dasharray: none !important;  }
+    .fill { fill: #4d4d4d;  }
+    .fillGrid { fill: #999999;  }
+    .whiteFill { fill: #ffffff;  }
+    .line { stroke: #4d4d4d;  }
+    .gridline { stroke: #999999;  }
+    .strokeHalf { stroke-width: .5;  }
+    .stroke1 { stroke-width: 1.5;  }
+    .strokeAxis { stroke-width: 2;  }
+    .stroke2 { stroke-width: 2.5;  }
+    .strokeLg { stroke-width: 3.5;  }
+    .dashed { stroke-dasharray: 7 7;  }
+    .primaryFill { fill: #125a9b;  }
+    .secondaryFill1 { fill: #c80e0d;  }
+    .secondaryFill2 { fill: #417b5b;  }
+    .secondaryFill3 { fill: #0c3c67;  }
+    .tertiaryFill1 { fill: #42374d;  }
+    .tertiaryFill2 { fill: #3a7664;  }
+    .tertiaryFill3 { fill: #922e27;  }
+    .tertiaryFill4 { fill: #266880;  }
+    .tertiaryFill5 { fill: #7b583a;  }
+    .primaryFill-80 { fill: #417BAF;  }
+    .secondaryFill1-80 { fill: #D34C3D;  }
+    .secondaryFill2-80 { fill: #67957C;  }
+    .secondaryFill3-80 { fill: #3D6385;  }
+    .tertiaryFill1-80 { fill: #685F71;  }
+    .tertiaryFill2-80 { fill: #619183;  }
+    .tertiaryFill3-80 { fill: #A85852;  }
+    .tertiaryFill4-80 { fill: #518699;  }
+    .tertiaryFill5-80 { fill: #957961;  }
+    .primaryFill-60 { fill: #719CC3;  }
+    .secondaryFill1-60 { fill: #DE796E;  }
+    .secondaryFill2-60 { fill: #8DB09D;  }
+    .secondaryFill3-60 { fill: #6D8AA4;  }
+    .tertiaryFill1-60 { fill: #8E8794;  }
+    .tertiaryFill2-60 { fill: #89ADA2;  }
+    .tertiaryFill3-60 { fill: #BE827D;  }
+    .tertiaryFill4-60 { fill: #7DA4B3;  }
+    .tertiaryFill5-60 { fill: #B09B89;  }
+    .primaryFill-35 { fill: #ACC5DC;  }
+    .secondaryFill1-35 { fill: #ECB1AA;  }
+    .secondaryFill2-35 { fill: #BDD1C6;  }
+    .secondaryFill3-35 { fill: #AABBCA;  }
+    .tertiaryFill1-35 { fill: #BDB9C1;  }
+    .tertiaryFill2-35 { fill: #BACFC9;  }
+    .tertiaryFill3-35 { fill: #D9B6B3;  }
+    .tertiaryFill4-35 { fill: #B3CAD3;  }
+    .tertiaryFill5-35 { fill: #D1C5BA;  }
+    .primaryFill-25 { fill: #C4D6E6;  }
+    .secondaryFill1-25 { fill: #F1C7C3;  }
+    .secondaryFill2-25 { fill: #D0DED6;  }
+    .secondaryFill3-25 { fill: #C2CED9;  }
+    .tertiaryFill1-25 { fill: #D0CDD3;  }
+    .tertiaryFill2-25 { fill: #CEDDD8;  }
+    .tertiaryFill3-25 { fill: #E4CBC9;  }
+    .tertiaryFill4-25 { fill: #C9D9DF;  }
+    .tertiaryFill5-25 { fill: #DED5CE;  }
+    .primaryFill-10 { fill: #E7EFF5;  }
+    .secondaryFill1-10 { fill: #FAE9E7;  }
+    .secondaryFill2-10 { fill: #ECF2EF;  }
+    .secondaryFill3-10 { fill: #E7ECF0;  }
+    .tertiaryFill1-10 { fill: #ECEBED;  }
+    .tertiaryFill2-10 { fill: #EBF1F0;  }
+    .tertiaryFill3-10 { fill: #F4EAE9;  }
+    .tertiaryFill4-10 { fill: #E9F0F2;  }
+    .tertiaryFill5-10 { fill: #F2EEEB;  }
+    .noFill { fill: none;  }
+    .fill80 { fill-opacity: 0.80;  }
+    .fill60 { fill-opacity: 0.60;  }
+    .fill35 { fill-opacity: 0.35;  }
+    .fill25 { fill-opacity: 0.25;  }
+    .fill10 { fill-opacity: 0.10;  }
+    .primaryStroke { stroke: #125a9b;  }
+    .secondaryStroke1 { stroke: #c80e0d;  }
+    .secondaryStroke2 { stroke: #417b5b;  }
+    .secondaryStroke3 { stroke: #0c3c67;  }
+    .tertiaryStroke1 { stroke: #42374d;  }
+    .tertiaryStroke2 { stroke: #3a7664;  }
+    .tertiaryStroke3 { stroke: #922e27;  }
+    .tertiaryStroke4 { stroke: #266880;  }
+    .tertiaryStroke5 { stroke: #7b583a;  }
+    .bevel { stroke-linecap: butt; stroke-linejoin: bevel;  }
+    .round { stroke-linecap: round; stroke-linejoin: round;  }
+    .miter { stroke-linecap: square; stroke-linejoin: miter;  }
+  </style>
+
+  <defs>
+    <marker id="axisArrowheadStart" markerHeight="7.5" markerWidth="7.5" orient="auto" refX="10" refY="5" viewBox="0 0 10 10">
+      <path d="M10,0 L0,5 L10,10z" class="fill"/>
+    </marker>
+    <marker id="axisArrowheadEnd" markerHeight="7.5" markerWidth="7.5" orient="auto" refX="0" refY="5" viewBox="0 0 10 10">
+      <path d="M0,0 L10,5 L0,10z" class="fill"/>
+    </marker>
+    <marker id="arrowheadEnd2" markerHeight="7.5" markerWidth="7.5" orient="auto" refX="0" refY="5" viewBox="0 0 10 10">
+      <path d="M0,0 L10,5 L0,10z" class="secondaryFill1"/>
+    </marker>
+  </defs>
+
+  <g aria-hidden="true">
+    <g data-comment="surface">
+      <path d="m169.606,47.418 c0,0 60.221,8.939 70.408,10.305 s53.359,7.81 82.35,16.472 s40.85,12.171 48.362,14.036 s52.82,12.396 70.297,12.666 s73.973,11.013 73.973,11.013 s-43.531,75.003 -60.347,88.464 s-60.866,88.15 -67.341,99.139 c0,0 -67.402,-13.029 -91.605,-22.354 s-100.869,-19.102 -106.839,-19.507 s-62.886,-5.757 -116.625,-21.954 s-70.257,-18.218 -70.257,-18.218 s41.222,-40.109 53.537,-49.878 c12.315,-9.769 45.484,-53.083 47.85,-55.894 s12.711,-16.264 51.088,-49.903 l15.149,-14.387 z" class="line primaryFill fill10 strokeHalf"/>
+    </g>
+    <g data-comment="grid lines">
+      <path d="m121.504,92.176 c0,0 29.602,1.542 63.966,-15.4 s59.36,-19.347 88.362,19.689 s16.814,30.895 33.408,50.965 m-165.967,-73.876 c0,0 41.879,1.948 54.22,-2.553 m-35.003,-14.834 c0,0 54.065,7.471 62.371,6.735 m-121.298,50.994 c0,0 31.466,3.984 64.201,-1.539 s60.952,-13.057 116.011,43.21 m-222.409,8.58401 c0,0 40.925,17.104 67.03,41.56 s46.293,36.005 63.199,30.73 m-153.236,-51.745 c0,0 47.368,16.321 68.921,31.563 s45.515,24.248 57.867,24.578 s24.776,-0.944 56.231,-19.974 s53.472,-32.131 96.963,-9.08 s67.312,39.139 96.182,46.288 m-399.335,-51.412 c0,0 23.206,4.89 46.092,12.532 s47.643,16.824 69.931,21.066 s37.693,7.215 70.491,4.396 s81.932,4.278 120.698,19.729 s75.303,21.028 75.303,21.028 m-144.531,-220.23 c0,0 38.722,3.478 78.858,23.232 s58.419,22.279 109.444,26.85 s60.726,5.738 69.209,7.321 m-250.514,-55.416 c0,0 25.146,6.893 54.905,41.613 s51.642,47.164 87.367,44.275 s50.917,-12.715 93.821,-7.302 m-95.839,41.433 c0,0 38.852,-18.725 80.699,-17.725 m-15.519,21.144 c0,0 -33.01,-3.168 -54.89,-1.47 m37.728,19.56 c0,0 -44.366,-13.236 -73.32,-30.716 m57.144,52.938 c0,0 -16.721,-5.195 -48.076,-25.473 s-64.89,-63.702 -100.956,-46.49 c0,0 -21.274,13.845 -23.508,15.355 c-44.193,29.867 -87.224,10.19 -110.587,-5.408 s-66.576,-28.672 -66.576,-28.672 m109.568,-89.401 c0,0 -19.901,18.547 -22.766,19.609 s-28.418,22.689 -36.308,33.209 s-34.694,54.642 -46.625,67.415 s-42.816,35.072 -49.874,42.089 s-9.712,9.275 -9.712,9.275 m206.258,-165.268 c0,0 -3.794,2.877 -7.198,5.11 m-30.767,9.433 c0,0 -12.704,4.302 -22.004,27.218 s-29.104,91.611 -42.036,103.93 s-40.784,12.529 -58.3,32.416 m202.79,-172.339 c0,0 -5.75,4.534 -14.086,5.055 m-22.671,-5.76 c0,0 -11.343,-3.373 -20.837,26.454 s-28.649,123.373 -39.483,140.719 c-10.021,16.044 -29.966,8.853 -33.026,8.43 c-3.754,-0.519 -9.362,-1.483 -25.073,9.361 m197.869,-174.446 c0,0 -6.542,8.207 -25.479,14.671 s-27.763,17.812 -39.062,52.353 s-16.906,61.866 -39.804,85.476 m-46.74,29.785 c0,0 14.113,-13.598 32.742,-22.433 m14.844,28.078 c0,0 16.828,-25.143 21.756,-36.265 s25.938,-51.914 29.058,-53.951 m95.729,-85.302 c0,0 -13.398,20.214 -17.784,30.932 s-14.935,31.607 -16.847,34.561 m-4.41801,-0.613987 c0,0 -4.194,-3.072 -13.389,12.916 s-32.104,92.334 -45.601,105.685 m110.683,-90.828 c0,0 -9.487,-4.52 -25.56,32.046 s-14.974,40.003 -35.668,72.161 m181.613,-174.213 c0,0 -24.861,41.193 -33.39,56.044 s-17.541,24.107 -35.813,37.263 s-36.308,51.93 -43.124,63.237 s-15.815,25.727 -18.497,29.881 m85.954,-192.937 c0,0 -15.356,27.895 -21.915,44.611 s-15.034,36.686 -21.394,42.536 m-1.33602,-92.525 c0,0 -15.461,28.369 -21.813,49.974 s-8.173,23.311 -10.795,29.4 m-220.011,-109.609 c0,0 40.928,2.63 55.878,1.735 m59.41,2.18399 c0,0 19.118,0.894 70.053,38.892 s94.961,16.227 166.283,25.408 m-370.469,-51.113 c0,0 15.432,4.095 58.716,-9.495 m16.851,-6.02099 c0,0 30.255,-15.02 57.055,5.88 s53.32,70.91 68.509,81.17 m40.332,22.211 c0,0 11.689,1.888 46.368,-9.357 s67.433,-9.074 67.433,-9.074 m-375.35,-55.554 c0,0 23.585,2.354 61.955,-11.593 s61.021,-32.311 119.965,59.463 m178.013,30.397 c0,0 -31.244,-2.677 -65.063,8.898 m32.398,29.456 c0,0 -32.156,-9.968 -68.72,-38.702 s-52.446,-36.927 -77.936,-29.291 m129.653,92.816 c0,0 -33.624,-9.689 -69.867,-38.127 s-74.583,-59.596 -134.334,14.847 l-1.978,2.549 m-145.622,-70.254 c0,0 29.748,10.297 57.88,31.518 s66.454,63.959 117.824,5.488 c0,0 10.11,-10.479 15.549,-17.855 m-213.671,2.48999 c0,0 31.938,11.202 52.485,26.787 s44.713,35.825 69.338,38.553 m-144.312,-44.52 c0,0 37.59,10.515 58.822,20.229 s64.424,38.333 120.045,18.779 s83.015,-6.998 144.699,17.926 c0,0 49.227,19.93 55.764,19.092 m-193.527,-218.004 c0,0 -15.327,15.044 -32.488,22.023 s-34.167,34.596 -47.841,68.907 s-22.409,40.43 -31.431,48.25 s-39.838,23.401 -50.792,35.835 m204.681,-169.166 c0,0 -3.769,2.426 -6.348,4.002 m-39.658,4.924 c0,0 -11.528,9.212 -21.536,49.937 s-19.531,88.202 -34.68,103.657 s-20.559,0.628 -42.577,10.97 c0,0 -9.723,4.039 -13.917,8.864 m200.224,-174.848 c0,0 -6.24,8.2 -23.456,5.647 s-24.537,-10.287 -42.356,58.577 s-22.413,96.973 -32.551,102.59 m-34.723,7.70601 c0,0 -10.729,1.333 -19.363,10.168 m149.372,-99.88 c0,0 -11.876,8.509 -27.106,56.15 s-26.895,56.551 -26.895,56.551 m143.321,-173.813 c0,0 -17.005,33.518 -20.771,47.046 s-7.835,23.847 -9.706,25.521 m-3.55199,-1.27699 c0,0 -9.1,-6.171 -20.168,23.078 s-33.896,84.513 -39.499,89.101 m138.331,-175.276 c0,0 -15.359,29.009 -20.508,45.158 s-12.501,33.435 -16.007,40.588 m81.713,-80.236 c0,0 -21.643,33.65 -26.582,48.49 s-19.453,37.116 -31.444,37.275 s-24.177,4.233 -36.355,26.326 s-31.365,59.048 -40.014,72.157" class="strokeHalf noFill gridline"/>
+    </g>
+    <g data-comment="axes">
+      <line x1="67.177" x2="272.357" y1="122.526" y2="163.295" marker-start="url(#axisArrowheadStart)" class="line strokeAxis noFill"/>
+      <line x1="409.818" x2="489.391" y1="190.605" y2="206.416" marker-end="url(#axisArrowheadEnd)" class="line strokeAxis noFill"/>
+      <line x1="268.107" x2="268.17" y1="28.522" y2="165.167" marker-start="url(#axisArrowheadStart)" class="line strokeAxis noFill"/>
+      <line x1="268.348" x2="268.235" y1="300.716" y2="270.279" marker-start="url(#axisArrowheadStart)" class="line strokeAxis noFill"/>
+      <line x1="354.059" x2="159.012" y1="59.606" y2="293.435" marker-end="url(#axisArrowheadEnd)" marker-start="url(#axisArrowheadStart)" class="line strokeAxis noFill"/>
+      <text x="167" y="304" class="italic">x</text>
+      <text x="485" y="228" class="italic">y</text>
+      <text x="249" y="31" class="italic">z</text>
+    </g>
+    <g data-comment="labels">
+      <text x="160" y="20" class="secondaryFill1" text-anchor="middle">고지대</text>
+      <path marker-end="url(#arrowheadEnd2)" d="m160 30 l60 35" class="secondaryStroke1"/>
+      <text x="440" y="60" class="secondaryFill1" text-anchor="middle">저지대</text>
+      <path marker-end="url(#arrowheadEnd2)" d="m440 70 l-60 91" class="secondaryStroke1"/>
+      <text x="60" y="280" class="secondaryFill1" text-anchor="middle">저지대</text>
+      <path marker-end="url(#arrowheadEnd2)" d="m60 260 l101 -25" class="secondaryStroke1"/>
+      <text x="390" y="330" class="secondaryFill1" text-anchor="middle">고지대</text>
+      <path marker-end="url(#arrowheadEnd2)" d="m390 310 l-76 -145" class="secondaryStroke1"/>
+    </g>
+  </g>
+
+</svg>
